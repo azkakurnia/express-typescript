@@ -5,7 +5,7 @@ import userRouter from './user.router'
 
 const app = Router()
 
-// http://localhost:3000/api/barang
+// buka http://localhost:3000/api/barang
 app.use('/api', barangRouter)
 app.use('/api', userRouter)
 
